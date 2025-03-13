@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ CORS middleware (should be placed before routes)
 app.use(cors({
-  origin: ["http://localhost:3000","https://rickmort-frontend-r2f28c1w3-piyushs-projects-1d4ee47d.vercel.app"],
+  origin: ["http://localhost:3000","https://rickmort-frontend-21m679qs3-piyushs-projects-1d4ee47d.vercel.app/"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
